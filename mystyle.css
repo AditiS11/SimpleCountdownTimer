@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(12, 11, 11);
+    text-align: center;
+    font-family: sans-serif,Arial;
+    font-weight:bold;/*Anything abive 700px is considered bold*/
+}
+h1{
+    color:azure;
+    font-size: 50px;
+    font-weight:bold;
+    margin:135px 0px 20px;
+}
+#clockdiv{
+    font-family: sans-serif;
+    color:black;
+    display:inline-block;
+    font-weight: 100;
+    text-align:center;
+    font-size: 55px;
+
+}
+#clockdiv > div{/*This means apply the styling to the immediate children(which are div tags) of clockdiv.If you use a space instead of greater than sign it will affect all the levels of div*/
+    padding:50px;
+    border-radius:7px;
+    background-color:rgb(63, 63, 99);
+    display:inline-block;
+
+
+
+}
+#clockdiv div > span{
+    padding:65px;
+    border-radius:3px;
+    background-color:#000;
+    display:inline-block;
+    color:azure;
+
+}
+.smalltext{
+    padding-top:5px;
+    font-size:22px;
+    color:azure;
+}
